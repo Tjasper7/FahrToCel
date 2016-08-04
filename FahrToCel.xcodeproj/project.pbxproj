@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6676AAC81D5007BF001C32CD /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6676AAC71D5007BF001C32CD /* ConversionViewController.swift */; };
+		669FB28E1D5284A50001679A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 669FB28D1D5284A50001679A /* MapKit.framework */; };
 		66D3359F1D4DD18400599897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D3359E1D4DD18400599897 /* AppDelegate.swift */; };
-		66D335A11D4DD18400599897 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D335A01D4DD18400599897 /* ViewController.swift */; };
 		66D335A41D4DD18400599897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D335A21D4DD18400599897 /* Main.storyboard */; };
 		66D335A61D4DD18400599897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66D335A51D4DD18400599897 /* Assets.xcassets */; };
 		66D335A91D4DD18400599897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D335A71D4DD18400599897 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6676AAC71D5007BF001C32CD /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
+		669FB28D1D5284A50001679A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		66D3359B1D4DD18400599897 /* FahrToCel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FahrToCel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66D3359E1D4DD18400599897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		66D335A01D4DD18400599897 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		66D335A31D4DD18400599897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66D335A51D4DD18400599897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66D335A81D4DD18400599897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,17 +31,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				669FB28E1D5284A50001679A /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		669FB28C1D5284A50001679A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				669FB28D1D5284A50001679A /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		66D335921D4DD18400599897 = {
 			isa = PBXGroup;
 			children = (
 				66D3359D1D4DD18400599897 /* FahrToCel */,
 				66D3359C1D4DD18400599897 /* Products */,
+				669FB28C1D5284A50001679A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				66D3359E1D4DD18400599897 /* AppDelegate.swift */,
-				66D335A01D4DD18400599897 /* ViewController.swift */,
+				6676AAC71D5007BF001C32CD /* ConversionViewController.swift */,
 				66D335A21D4DD18400599897 /* Main.storyboard */,
 				66D335A51D4DD18400599897 /* Assets.xcassets */,
 				66D335A71D4DD18400599897 /* LaunchScreen.storyboard */,
@@ -138,7 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66D335A11D4DD18400599897 /* ViewController.swift in Sources */,
+				6676AAC81D5007BF001C32CD /* ConversionViewController.swift in Sources */,
 				66D3359F1D4DD18400599897 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +309,7 @@
 				66D335AF1D4DD18400599897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
